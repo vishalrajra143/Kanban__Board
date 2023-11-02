@@ -1,0 +1,65 @@
+.kanban-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.options {
+  /* display: flex;
+  justify-content: space-between; */
+  margin-bottom: 20px;
+}
+
+.columns {
+  display: flex;
+  gap: 20px;
+}
+
+.column {
+  padding: 10px;
+  width: 300px;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.options {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.select-container {
+  display: flex;
+  gap: 10px;
+}
+
+.select-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.select {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  width:200px;
+}
+
+.select:focus {
+  outline: none;
+}
+
+
+
