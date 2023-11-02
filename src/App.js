@@ -127,7 +127,13 @@ const App = () => {
                         <
                         div className = "imageContainer relative"
                         style = {
-                            { width: "30px", height: "30px", display: "flex", justifyContent: "flex-end", } } >
+                            {
+                                width: "30px",
+                                height: "30px",
+                                display: "flex",
+                                justifyContent: "flex-end",
+                            }
+                        } >
                         <
                         img style = {
                             {
